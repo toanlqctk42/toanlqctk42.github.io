@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contest Entry Form</title>
+</head>
+<body>
+	<h1>"Pim My Shoes" Contest EnTry Form</h1>
+	<p>Want to trade in your old sneaker for a custom pair of Forcedields? Make a case for why your shoes have got to go and you may be one of ten lucky winners.</p>
+	<form action="https://www.learningwebdesign.com/contest.php"  method="POST"  accept-charset="utf-8">
+	<p>Contest Entrt Information</p>
+
+<ul>
+	<li>Name: <input type="text" name="username"/></li>
+	<li>Email: <input type="email" name="emailadress"/></li>
+	<li>Phone: <input type="tel" name="telephone"/></li>
+	<li>My shoes are SO onl...<br /><textarea name="story" cols="60" rows="4" maxlength="300" placeholder="No more than 300 character long"></textarea> 
+	</li>
+</ul>
+<h2>Design your custom Focefields:</h2>
+<p>Custom Shoe Design</p>
+<p>Color <em> (choose one)</em>:</p>
+<ul>
+	<li><input type="radio" name="color" value="red">Red</li>
+	<li><input type="radio" name="color" value="blue">Blue</li>
+	<li><input type="radio" name="color" value="black">Black</li>
+	<li><input type="radio" name="color" value="sliver">Sliver</li>
+</ul>
+<p>Features <em>(choose as many as you want)</em></p>
+<ul>
+	<li><input type="checkbox" name="features[]"value="laces"/>Sparkley laces</li>
+	<li><input type="checkbox" name="features[]"value="logo"/>Metallic logo</li>
+	<li><input type="checkbox" name="features[]"value="heels"/>Light-up heels</li>
+	<li><input type="checkbox" name="features[]"value="mp3"/>MP3-enabled</li>
+	<p>SIZE</p>
+	<p>Size reflect standard men's sezes:</p>
+	<p><input type="submit" value="Pimp my shoes!"/><input type="reset"></p>
+</form>
+</ul>
+</body>
+</html>

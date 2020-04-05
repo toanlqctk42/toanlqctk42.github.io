@@ -1,0 +1,21 @@
+body {
+	 		background-color:#34495e;
+	 		background-image: url(bailab/image/images.jpg);
+		}
+h1 {text-align: center;
+	background-color: lightgreen;
+	text-decoration: underline;
+	font-size: 50px;
+	 		}
+h2 {color: darkblue;}
+a {
+	background-color: #34495e;
+	font-size: 35px;
+	 color: white;
+}
+p {
+	text-align: center;
+}
+#noidung {
+	
+	}

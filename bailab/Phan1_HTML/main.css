@@ -1,6 +1,6 @@
 body{
 	background-color: lightblue;
-			font-size: 15px;
+			font-size: 20px;
 			font-family: aria;
 		}
 		h2{
@@ -17,9 +17,14 @@ body{
 			list-style: none;
 			}
 		ul li a{
-			color: black;
+			background-color:#34495e; 
+			color: white;
 		}
 		p{
 			text-align: center;
 		}
-		
+		body {
+	 		background-color:#34495e;
+	 		background-size: 1280px 600px;
+	 		background-image: url(pexels-photo-1473215.jpeg);
+		}

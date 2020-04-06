@@ -1,6 +1,7 @@
 body {
 	 		background-color:#34495e;
-	 		background-image: url(bailab/image/images.jpg);
+	 		background-size: 1280px 600px;
+	 		background-image: url(bailab/image/pexels-photo-1473215.jpeg);
 		}
 h1 {text-align: center;
 	background-color: lightgreen;
@@ -16,6 +17,4 @@ a {
 p {
 	text-align: center;
 }
-#noidung {
-	
-	}
+

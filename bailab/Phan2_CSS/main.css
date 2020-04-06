@@ -1,0 +1,26 @@
+#logo{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	background-color: green;
+	color: orange;
+}
+h2 {
+	color: white;
+}
+body{
+	font-size: 20px;
+}
+ul li a{
+			background-color:#34495e; 
+			color: white;
+			list-style: none;
+		}
+body {
+	 		background-color:#34495e;
+	 		background-size: 1280px 600px;
+	 		background-image: url(pexels-photo-1473215.jpeg);
+		}

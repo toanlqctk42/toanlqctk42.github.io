@@ -1,18 +1,26 @@
-body {
-	 		background-color:#34495e;
-	 		background-size: 1280px 600px;
-	 		background-image: url(bailab/image/pexels-photo-1473215.jpeg);
+body {	 	background-color:#34495e;	
+	 		background-size: 1500px 800px;
+	 		
+	 		margin: 0 auto;
 		}
+#nen{
+	margin-top: auto;
+	width: 900px;
+	height: 600px;
+	background-size: 100%;
+	background-image: url(bailab/image/pexels-photo-1097456.jpeg);
+	margin: 0 auto;
+}
 h1 {text-align: center;
 	background-color: lightgreen;
 	text-decoration: underline;
 	font-size: 50px;
 	 		}
-h2 {color: darkblue;}
+
 a {
-	background-color: #34495e;
+	background-color: #98FB98;
 	font-size: 35px;
-	 color: white;
+	color: black;
 }
 p {
 	text-align: center;

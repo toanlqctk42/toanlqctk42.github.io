@@ -9,18 +9,26 @@ h1{
 	color: orange;
 }
 h2 {
+	background-color: 
 	color: white;
 }
-body{
-	font-size: 20px;
-}
+
 ul li a{
-			background-color:#34495e; 
-			color: white;
+			background-color: #98FB98;
+	font-size: 35px;
+	color: black;
 			list-style: none;
 		}
-body {
-	 		background-color:#34495e;
-	 		background-size: 1280px 600px;
-	 		background-image: url(pexels-photo-1473215.jpeg);
+body {	 	background-color:#34495e;	
+	 		background-size: 1500px 800px;
+			font-size: 20px;
+	 		margin: 0 auto;
 		}
+#nen{
+	margin-top: auto;
+	width: 900px;
+	height: auto;
+	background-size: 100%;
+	background-image: url(pexels-photo-1097456.jpeg);
+	margin: 0 auto;
+}

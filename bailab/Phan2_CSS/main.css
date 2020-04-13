@@ -9,14 +9,14 @@ h1{
 	color: orange;
 }
 h2 {
-	background-color: 
-	color: white;
+	background-color: #98FB98;
+	color: black;
 }
 
 ul li a{
 			background-color: #98FB98;
-	font-size: 35px;
-	color: black;
+			font-size: 35px;
+			color: black;
 			list-style: none;
 		}
 body {	 	background-color:#34495e;	

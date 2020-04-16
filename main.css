@@ -27,14 +27,16 @@ h1 {text-align: center;
 	background-color: lightgreen;
 	text-decoration: underline;
 	font-size: 50px;
-	opacity: 0.5;
-	 		}
+	opacity: 0.6;}
 
 a {
 	background-color: #98FB98;
 	font-size: 35px;
 	color: black;
-	opacity: 0.5;
+	opacity: 0.6;
+}
+#choi{
+	float: left;
 }
 p {
 	text-align: center;

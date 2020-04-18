@@ -1,4 +1,4 @@
-body {	 	background-color:#34495e;	
+body {	 	/*background-color:#34495e;*/	
 	 		background-size: 1500px 800px;
 	 		
 	 		margin: 0 auto;
@@ -10,6 +10,56 @@ body {	 	background-color:#34495e;
 	background-size: 100%;
 	/*background-image: url(https://hoigicungbiet.com/wp-content/uploads/2018/10/EDM-l%C3%A0-g%C3%AC-T%C3%ACm-hi%E1%BB%83u-v%E1%BB%81-d%C3%B2ng-nh%E1%BA%A1c-EDM-v%C3%A0-EDM-trong-marketing.jpg);*/
 	margin: 0 auto;
+}
+#header{
+	width: 	900px;
+	height: 50px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	background-color: lightgreen;
+	text-decoration: underline;
+	font-size: 20px;
+	opacity: 0.6;}
+
+a {
+	
+	font-size: 35px;
+	color: black;
+	opacity: 0.6;
+}
+/*.cach{
+	width: 10px;
+	height: 30px;
+	/*background-color: #98FB98;
+}*/
+ul#menu{
+	float: right;
+}
+#choi{
+	float: left;
+}
+p {
+	text-align: center;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+ul li a
+{
+	text-decoration: none;
+	font-size: 30px;
+	padding: 0 20px;
+	font-size: 35px;
+	color: black;
+	opacity: 0.6;
+	}
+ul li a:hover
+{
+	color: red;
 }
 video {
 position: absolute;
@@ -23,22 +73,3 @@ min-height: 100%;
   z-index: -1000;
   overflow: hidden;
 }
-h1 {text-align: center;
-	background-color: lightgreen;
-	text-decoration: underline;
-	font-size: 50px;
-	opacity: 0.6;}
-
-a {
-	background-color: #98FB98;
-	font-size: 35px;
-	color: black;
-	opacity: 0.6;
-}
-#choi{
-	float: left;
-}
-p {
-	text-align: center;
-}
-

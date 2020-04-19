@@ -1,75 +1,51 @@
-body {	 	/*background-color:#34495e;*/	
-	 		background-size: 1500px 800px;
-	 		
-	 		margin: 0 auto;
-		}
-#nen{
-	margin-top: auto;
-	width: 900px;
-	height: 600px;
-	background-size: 100%;
-	/*background-image: url(https://hoigicungbiet.com/wp-content/uploads/2018/10/EDM-l%C3%A0-g%C3%AC-T%C3%ACm-hi%E1%BB%83u-v%E1%BB%81-d%C3%B2ng-nh%E1%BA%A1c-EDM-v%C3%A0-EDM-trong-marketing.jpg);*/
-	margin: 0 auto;
+body {
+	font-family: arial;
+	font-size: 20px;
+	background-image: url(bailab/image/pexels-photo-1097456.jpeg);
+}
+
+#manchinh{
+	background-color: white;
+	width: 1100px;
+	height: auto;
+	margin: 0  auto;
 }
 #header{
-	width: 	900px;
-	height: 50px;
-	margin: 0 auto;
+	border-bottom: 1px solid;
+	padding: 10px 0px;
 }
-h1 {
-	text-align: center;
-	background-color: lightgreen;
-	text-decoration: underline;
-	font-size: 20px;
-	opacity: 0.6;}
-
-a {
-	
-	font-size: 35px;
-	color: black;
-	opacity: 0.6;
-}
-/*.cach{
-	width: 10px;
-	height: 30px;
-	/*background-color: #98FB98;
-}*/
-ul#menu{
-	float: right;
-}
-#choi{
-	float: left;
-}
-p {
-	text-align: center;
+.clearfix{
+	clear: both;
 }
 ul li{
 	list-style: none;
-	display: inline-block;
+}
+ul#menu li{
 	float: left;
 }
-ul li a
-{
-	text-decoration: none;
-	font-size: 30px;
-	padding: 0 20px;
-	font-size: 35px;
-	color: black;
-	opacity: 0.6;
-	}
-ul li a:hover
-{
-	color: red;
+#logo{
+	float: left;
+	height: 90px;
 }
-video {
-position: absolute;
-bottom: 0px;
-right: 0px;
-min-width: 100%;
-min-height: 100%;
- width: 100%;
- height: 100%;
- object-fit: cover;
-  z-index: -1000;
-  overflow: hidden;
+#logo img{
+	height: 100%;
+	width: auto;
+}
+
+ul#menu{
+	float: right;
+}
+ul#menu li a{
+	padding: 15px  40px;
+	/*text-decoration: none;*/
+	color: black;
+	margin: 0  auto;
+}
+h1{
+	border: 5px solid ;
+}
+video{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
 }

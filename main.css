@@ -49,3 +49,6 @@ video{
 	height: 600px;
 	margin: 0 auto;
 }
+ul#menu li a:hover{
+	color: orange;
+}

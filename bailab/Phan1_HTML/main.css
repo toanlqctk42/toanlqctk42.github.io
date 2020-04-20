@@ -1,37 +1,64 @@
+body {
+	font-family: arial;
+	font-size: 20px;
+	background-image: url(pexels-photo-1097456.jpeg);
+}
+#manchinh{
+	background-color: white;
+	width: 1100px;
+	height: auto;
+	margin: 0  auto;
+}
+#header{
+	border-bottom: 1px solid;
+	padding: 10px 0px;
+}
+.clearfix{
+	clear: both;
+}
+ul#menu li{
+	float: left;
+}
+#logo{
+	float: left;
+	height: 90px;
+}
+#logo img{
+	height: 100%;
+	width: auto;
+}
 
-		h2{
-			color: orange ;
-			background: lightgreen;
-			<b>;
-		}
-		h1{
-			text-align: center;
-			color: orange ;
-			background: lightgreen;
-		}
-		ul li {
-			list-style: none;
-			}
+ul#menu{
+	float: right;
+}
+ul#menu li a{
+	padding: 15px  40px;
+	/*text-decoration: none;*/
+	color: black;
+	margin: 0  auto;
+}
+
+h2{
+	color: orange ;
+	background: lightgreen;
+	
+	}
+h1{
+	text-align: center;
+	color: orange ;
+	background: lightgreen;
+	border: 5px solid ;
+	}
+ul li {
+		list-style: none;
+	}
 		
-		p{
-			text-align: center;
-		}
-a {
-	background-color: #98FB98;
-	font-size: 35px;
+p{
+		text-align: center;
+}
+#noidung ul li a{
 	color: black;
 }
-body {	 	
-	background-color:#34495e;
-	font-size: 20px;
-	margin: 0 auto;
-	font-family: aria;
-		}
-#nen{
-	margin-top: auto;
-	width: 900px;
-	height: auto;
-	background-size: 100%;
-	background-image: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-	margin: 0 auto;
+ul#menu li a:hover{
+	color: orange;
 }

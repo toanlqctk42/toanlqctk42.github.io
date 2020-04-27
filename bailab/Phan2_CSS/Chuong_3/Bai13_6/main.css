@@ -1,0 +1,13 @@
+body {
+font-family: Georgia,
+serif;
+font-size: 100%;
+line-height: 175%;
+margin: 0 15%;
+background: lightgreen
+url(download.png) no-repeat center 100px
+fixed;
+}
+p{
+	color: white;
+}

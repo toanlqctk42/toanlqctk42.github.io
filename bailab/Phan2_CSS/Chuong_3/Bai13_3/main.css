@@ -1,0 +1,13 @@
+body 
+{
+background-color: #d2dc9d;
+margin-bottom: 0;
+padding: 3em 1em 2em 1em;
+text-align: center;
+background-image: url(download.png);
+background-size: 50px 50px;
+background-repeat: repeat-x;
+}
+p{
+border: 1px solid;
+}

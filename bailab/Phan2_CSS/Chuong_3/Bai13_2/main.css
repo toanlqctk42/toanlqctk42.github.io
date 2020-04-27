@@ -1,32 +1,14 @@
 body {
-background-color: #d2dc9d;
-background-image: url("");
+background-image: url(giphy.gif);
+background-position: right center;
 }
-#header {
-background-color: rgba(255,255,255,.5);
-}
-a:link {
-color: #939;
-}
-a:visited {
-color: #937393;
-}
-a:focus {
-background-color: #fff;
-color: #c700f2;
-}
-a:hover {
-background-color: #fff;
-color: #c700f2;
-}
-a:active {
-background-color: #fff;
-color: #f0f;
-}
-h1 {
-color: #939;
-}
-h2 {
-www.it-ebooks.info572 Appendix A
-color: #c60;
+blockquote {
+width: 500px;
+margin: 0 auto;
+background-image: url(download.jpg);
+background-position: left center;
+background-color: white;
+background-repeat: no-repeat;
+padding: 2em;
+border: 4px dashed;
 }

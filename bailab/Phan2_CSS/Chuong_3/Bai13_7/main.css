@@ -1,0 +1,14 @@
+body{
+background-image: url(images/purpledot.png) center top repeat-x;
+background:
+url(download.jpg) left top repeat-y,
+url(download1.png) right top repeat-y,
+url(download2.jpg) 50% center no-repeat;
+background-color: rgba(255,255,255,.5);
+}
+p{
+	width: 800px;
+	height: auto;
+	margin: 100px auto;
+	border: 1px dashed;
+}

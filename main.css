@@ -28,7 +28,7 @@ ul#menu li{
 	float: left;
 }
 #logo{
-	float: left;
+	display: inline-block;
 	height: 90px;
 }
 #logo img{

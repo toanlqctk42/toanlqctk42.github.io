@@ -4,9 +4,11 @@ body {
 	background-image: url(pexels-photo-1097456.jpeg);
 }
 #manchinh{
-	background-color: white;
 	width: 1100px;
 	height: auto;
+	background-image: url(yasuo.gif);
+	background-size: 1370px 100%;
+	background-repeat: no-repeat; 	
 	margin: 0  auto;
 }
 #header{
@@ -27,7 +29,10 @@ ul#menu li{
 	height: 100%;
 	width: auto;
 }
-
+#menu{
+	display: flex;
+	background-color: white; 
+}
 ul#menu{
 	float: right;
 }
@@ -61,4 +66,7 @@ p{
 }
 ul#menu li a:hover{
 	color: orange;
+}
+#noidung ul li a{
+background-color: white;
 }

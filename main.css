@@ -57,11 +57,6 @@ h1{
 	background: white;
 	opacity: 0.7;
 }
-video{
-	width: 100%;
-	height: 600px;
-	margin: 0 auto;
-}
 ul.menu li a:hover{
 	color: orange;
 }
@@ -77,17 +72,26 @@ ul li a img{
 	height: 40px;
 	width: 50px;
 }
-@media screen and (max-width: 700px)
+
+@media screen and (max-width: 988px)
 {
 	body{
-		font-size: 13px;
+		font-size: 18px;
 	}
 	ul.menu li a{
 	padding: 10%  10px;
 	color: black;
 	margin: 0  auto;
 	}
-	.menu{
-		display: flex;
+}
+@media screen and (max-width: 700px)
+{
+	body{
+		font-size: 15px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
 	}
 }

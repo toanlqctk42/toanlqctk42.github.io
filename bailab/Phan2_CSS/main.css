@@ -32,8 +32,16 @@ body {
 .clearfix{
 	clear: both;
 }
-ul#menu li{
+ul.menu li{
 	float: left;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height:8vh;
+	background-image: linear-gradient(to left, #fa709a, #fee140);
+	font-family: 'Poppins', sans-serif;
 }
 #logo{
 	float: left;
@@ -43,19 +51,16 @@ ul#menu li{
 	height: 100%;
 	width: auto;
 }
-#menu{
-	background-color:white;
-}
-ul#menu{
+ul.menu{
 	float: right;
 }
-ul#menu li a{
+ul.menu li a{
 	padding: 15px  40px;
 	/*text-decoration: none;*/
 	color: black;
 	margin: 0  auto;
 }
-ul#menu li a:hover{
+ul.menu li a:hover{
 	color: orange;
 }
 #nen ul li a{
@@ -64,4 +69,26 @@ ul#menu li a:hover{
 }
 #nen ul li a:hover{
 	color: orange;
+}
+@media screen and (max-width: 990px)
+{
+	body{
+		font-size: 18px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	body{
+		font-size: 15px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
+	}
 }

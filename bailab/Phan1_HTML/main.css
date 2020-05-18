@@ -18,7 +18,7 @@ body {
 .clearfix{
 	clear: both;
 }
-ul#menu li{
+ul.menu li{
 	float: left;
 }
 #logo{
@@ -29,14 +29,10 @@ ul#menu li{
 	height: 100%;
 	width: auto;
 }
-#menu{
-	display: flex;
-	background-color: white; 
-}
-ul#menu{
+ul.menu{
 	float: right;
 }
-ul#menu li a{
+ul.menu li a{
 	padding: 15px  40px;
 	/*text-decoration: none;*/
 	color: black;
@@ -64,9 +60,39 @@ p{
 #noidung ul li a{
 	color: black;
 }
-ul#menu li a:hover{
+ul.menu li a:hover{
 	color: orange;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height:8vh;
+	background-image: linear-gradient(to left, #fa709a, #fee140);
+	font-family: 'Poppins', sans-serif;
 }
 #noidung ul li a{
 background-color: white;
+}
+@media screen and (max-width: 950.60px)
+{
+	body{
+		font-size: 18px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	body{
+		font-size: 15px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
+	}
 }

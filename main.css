@@ -47,18 +47,10 @@ ul.menu li{
 ul.menu{
 	float: right;
 }
-ul.menu li a{
-	padding: 15px  40px;
-	color: black;
-	margin: 0  auto;
-}
 h1{
 	border: 5px solid ;
 	background: white;
 	opacity: 0.7;
-}
-ul.menu li a:hover{
-	color: orange;
 }
 h2{
 	background: white;
@@ -71,6 +63,59 @@ ul li a img{
 	padding: 10px 20px;
 	height: 40px;
 	width: 50px;
+}
+
+.dropbtn {
+  background-color:#808080;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn a{	
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+}
+.dropdown-content a {
+  font-size: 14px;
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover 
+{ 
+	background-color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-image: linear-gradient(to left, #fa709a, #fee140);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(to left, #fa709a, #fee140);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 @media screen and (max-width: 988px)
@@ -88,6 +133,17 @@ ul li a img{
 {
 	body{
 		font-size: 15px;
+	}
+	ul.menu li a{
+	padding: 10%  10px;
+	color: black;
+	margin: 0  auto;
+	}
+}
+@media screen and (max-width: 500px)
+{
+	body{
+		font-size: 10px;
 	}
 	ul.menu li a{
 	padding: 10%  10px;

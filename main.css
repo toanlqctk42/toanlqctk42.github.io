@@ -85,14 +85,22 @@ body{
 	border: 5px double black;
 	background-image: url(bailab/image/br.jpg);
 	background-size: 100% 100%;
-	background-color: lightblue;
 	margin: 40px;
-
+	background-blend-mode: luminosity;
 }
+
 #content li{
 	margin-top: 20px; 
 	padding: 20px 28px;
 }
 #content li:hover{
-	background-color: lightgreen;
+	background-color: black;
+	color: white;
+}
+#content ul li a{
+	color: black;
+}
+#content li:hover a{
+	background-color: black;
+	color: white;
 }

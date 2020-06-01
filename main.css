@@ -30,7 +30,7 @@ body{
 }
 #main-menu>li:hover>a{
 	background: #24a085;
-	transition: all 0.9s;
+	transition: 0.5s ease-in-out;
 }
 #main-menu .sub-menu li{
 	float: none;
@@ -94,6 +94,7 @@ body{
 	padding: 20px 28px;
 }
 #content li:hover{
+	transition: 0.5s ease-in-out;
 	background-color: black;
 	color: white;
 }
@@ -101,6 +102,7 @@ body{
 	color: black;
 }
 #content li:hover a{
+	transition: 0.5s ease-in-out;
 	background-color: black;
 	color: white;
 }

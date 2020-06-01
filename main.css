@@ -45,7 +45,7 @@ body{
 }
 #main-menu>li>.sub-menu{
 	top: 80px;
-	left: 0px;
+	right: 0px;
 } 
 #main-menu .sub-menu li a{
 	font-size: 18px;
@@ -79,7 +79,7 @@ body{
 
 }
 #content{
-	height: 600px;
+	height:auto;
 	font-size: 50px;
 	display: inline-flex;
 	border: 5px double black;
